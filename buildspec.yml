@@ -6,14 +6,14 @@ phases:
     python: 3.8
   pre_build:
     commands:
-      - echo "Before running tests"
-      - pip install -r requirements.txt
+    - echo "Before running tests"
+    - pip install -r requirements.txt
   build:
     commands:
-      - echo "Running all unit tests"
+    - echo "Running all unit tests"
   post_build:
     commands:
-      - echo Build completed on `date`
+    - echo Build completed on `date`
 artifacts:
   files:
-    - 'awscodebuild-skhanal123/*'
+  - 'awscodebuild-skhanal123/*'
