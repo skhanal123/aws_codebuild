@@ -11,6 +11,8 @@ phases:
   build:
     commands:
       - echo "Running all unit tests"
+      - python manage.py test app1
+      - echo "Completed all test cases"
   post_build:
     commands:
       - echo "Build completed"

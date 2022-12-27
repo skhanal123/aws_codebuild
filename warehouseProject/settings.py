@@ -26,6 +26,7 @@ SECRET_KEY = "django-insecure-j$#76%i7pa@qt*^fn_pp0@%l(*t7%(i&4#b4xzc)64yu)c$422
 DEBUG = True
 
 ALLOWED_HOSTS = ['awscodebuild-env.eba-upqp2a7p.us-west-2.elasticbeanstalk.com']
+# ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "app1",
 ]
 
 MIDDLEWARE = [
